@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mazur {
+    background-color: #F5EFE6;
+    color: black;
+}
+
+#dark {
+    background-color: #F2E5D5;
+}
+
+body {
+    background-color: #F8E8E8;
+}
+
+a {
+    color: #263D32;
+    text-decoration: none;
+}
