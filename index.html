@@ -4,143 +4,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAZUR</title>
+
+    <title>MAZUR Flowers</title>
+
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-    <section id="typograhpy">
 
-        <h1 style="color:  #680909;">MAZUR</h1>
-        <br>
-        <a href="https://en.mazurflowers.com/">Main</a>
-        <a href="https://en.mazurflowers.com/mono-valentine">Mono Bouquets</a>
-        <a href="https://en.mazurflowers.com/assembled-valentine">Assembled Bouquets</a>
+    
+
+    <header id="typograhpy">
+
+        <h1>MAZUR</h1>
+
+        <p class="subtitle">FLOWERS & EMOTIONS</p>
+
+        <nav>
+            <a href="https://en.mazurflowers.com/">Main</a>
+            <a href="https://en.mazurflowers.com/mono-valentine">Mono Bouquets</a>
+            <a href="https://en.mazurflowers.com/assembled-valentine">Assembled Bouquets</a>
+        </nav>
+
+    </header>
+
+    
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p>MAKE SOMEONE HAPPY</p>
+
+            <h2>Flowers Speak<br>When Words Fail</h2>
+
+            <a href="#products" class="hero-btn">Explore Collection</a>
+
+        </div>
 
     </section>
-    <br><br>
+
+    
+
+    <section class="shop">
+
+        <div class="shop-title">
+
+            <p>OUR COLLECTION</p>
+
+            <h2>Beautiful Flowers</h2>
+
+        </div>
+
+        <div class="filters">
+
+            <select name="category" id="category">
+
+                <option value="">CATEGORY: All</option>
+
+                <option value="hydrangeas">HYDRANGEAS</option>
+
+                <option value="roses">ROSES</option>
+
+            </select>
+
+            <select name="sort" id="sort">
+
+                <option value="">Sort by</option>
+
+                <option value="cheap">From cheap to expensive</option>
+
+                <option value="expensive">From expensive to cheap</option>
+
+            </select>
+
+            <div class="search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text" id="search" placeholder="SEARCH FLOWERS">
+
+            </div>
+
+        </div>
+
+        
+
+        <main class="products" id="products">
+
+            <article class="product" data-category="roses" data-price="250">
+
+                <a href="https://en.mazurflowers.com/mono-valentine/p/-5-7ehk5">
+
+                    <div class="image-box">
+
+                        <img src="./images/mazur1.jpg" alt="">
+
+                    </div>
+
+                    <h3>Rose Mix</h3>
+
+                    <p>from $250.00</p>
+
+                </a>
+
+                <a class="buy-btn" href="https://en.mazurflowers.com/mono-valentine/p/-5-7ehk5">
+                    View Product
+                </a>
+
+            </article>
 
 
-    <select name="category" id="category">
-        <option value="">CATEGORY:All</option>
-        <option value="">HYDRANGEAS</option>
+            <article class="product" data-category="roses" data-price="1250">
 
-        <optgroup label="Roses">
-            <option value="">Bouqet of roses</option>
-            <option value="">Basket</option>
-            <option value="">Box of roses</option>
-        </optgroup>
-    </select>
+                <a href="https://en.mazurflowers.com/mono-valentine/p/200-1">
+
+                    <div class="image-box">
+
+                        <img src="./images/mazur2.jpg" alt="">
+
+                    </div>
+
+                    <h3>200 Mixed Roses in a Basket</h3>
+
+                    <p>$1,250.00</p>
+
+                </a>
+
+                <a class="buy-btn" href="https://en.mazurflowers.com/mono-valentine/p/200-1">
+                    View Product
+                </a>
+
+            </article>
 
 
-    <select name="sort" id="sort">
-        <option value="">From cheap to expensive</option>
-        <option value="">From expensive to cheap</option>
-    </select>
-    <br><br>
+            <article class="product" data-category="roses" data-price="600">
 
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <input placeholder="SEARCH" type="text">
+                <a href="https://en.mazurflowers.com/assembled-valentine/p/230">
 
-    <br><br>
-    <br>
-    <a href="https://en.mazurflowers.com/mono-valentine/p/-5-7ehk5">
-        <img src="./images/Rose.webp" width="150" alt="">
-        <h3>Rose mix</h3>
-        <p>from $250.0</p>
-        <button>Add to Cart</button>
-    </a>
-    <br><br><br>
-    <a href="https://en.mazurflowers.com/mono-valentine/p/200-1">
-        <img src="./images/200roses.webp" width="150" alt="">
-        <h3>200 Mixed Roses in a Basket</h3>
-        <p>$1,250.00</p>
-        <button>Add to Cart</button>
-    </a>
+                    <div class="image-box">
 
-    <br><br><br>
-    <a href="https://en.mazurflowers.com/assembled-valentine/p/230">
-        <img src="./images/n530.webp" alt="" width="150">
-        <h3>N530</h3>
-        <p>$600.00</p>
-        <button>Add to Cart</button>
-    </a>
+                        <img src="./images/mazur3.jpg" alt="">
 
-    <br><br><br>
-    <a href="https://en.mazurflowers.com/assembled-valentine/p/531">
-        <img src="./images/n531.webp" alt="" width="150">
-        <h3>N531</h3>
-        <p>$590.00</p>
-        <button>Add to Cart</button>
-    </a>
+                    </div>
 
-    <br><br><br>
-    <a href="https://en.mazurflowers.com/mono-valentine/p/40-">
-        <img src="./images/40Hydrangaes.webp" alt="" width="150">
-        <h3>40 Hydrangaes in a Basket</h3>
-        <p>$860.00</p>
-        <button>Add to Cart</button>
-    </a>
+                    <h3>N530</h3>
 
-    <br><br><br>
-    <a href="https://en.mazurflowers.com/mono-valentine/p/10-">
-        <img src="./images/White.webp" alt="" width="150">
-        <h3>Hydrangea White</h3>
-        <p>from $200.00</p>
-        <button>Add to Cart</button>
-    </a>
+                    <p>$600.00</p>
 
-    <br><br><br>
+                </a>
 
-    <hr>
+                <a class="buy-btn" href="https://en.mazurflowers.com/assembled-valentine/p/230">
+                    View Product
+                </a>
+
+            </article>
+
+
+            <article class="product" data-category="roses" data-price="590">
+
+                <a href="https://en.mazurflowers.com/assembled-valentine/p/531">
+
+                    <div class="image-box">
+
+                        <img src="./images/mazur4.jpg" alt="">
+
+                    </div>
+
+                    <h3>N531</h3>
+
+                    <p>$590.00</p>
+
+                </a>
+
+                <a class="buy-btn" href="https://en.mazurflowers.com/assembled-valentine/p/531">
+                    View Product
+                </a>
+
+            </article>
+
+
+            <article class="product" data-category="hydrangeas" data-price="860">
+
+                <a href="https://en.mazurflowers.com/mono-valentine/p/40-">
+
+                    <div class="image-box">
+
+                        <img src="./images/mazur5.jpg" alt="">
+
+                    </div>
+
+                    <h3>40 Hydrangeas in a Basket</h3>
+
+                    <p>$860.00</p>
+
+                </a>
+
+                <a class="buy-btn" href="https://en.mazurflowers.com/mono-valentine/p/40-">
+                    View Product
+                </a>
+
+            </article>
+
+
+            <article class="product" data-category="hydrangeas" data-price="200">
+
+                <a href="https://en.mazurflowers.com/mono-valentine/p/10-">
+
+                    <div class="image-box">
+
+                        <img src="./images/mazur6.jpg" alt="">
+
+                    </div>
+
+                    <h3>Hydrangea White</h3>
+
+                    <p>from $200.00</p>
+
+                </a>
+
+                <a class="buy-btn" href="https://en.mazurflowers.com/mono-valentine/p/10-">
+                    View Product
+                </a>
+
+            </article>
+
+        </main>
+
+    </section>
+
+    
 
     <section id="mazur">
 
-        <p>ORDER BY PHONE OR WA</p>
-        <i class="fa-sharp-duotone fa-solid fa-phone">+33 7 68 63 51 73</i>
-        <br> <br>
+        <p class="contact-title">ORDER BY PHONE OR WHATSAPP</p>
 
-        <a href="https://www.instagram.com/mazur_flowers?igsh=MTB2enpmN2dzZXlleQ%3D%3D">
-            <i class="fa-brands fa-instagram"> Instagram</i>
-        </a>
+        <h2>Let's Make Someone Smile</h2>
 
-        <br><br>
+        <p>
+            <i class="fa-solid fa-phone"></i>
+            +33 7 68 63 51 73
+        </p>
 
-        <a href="https://api.whatsapp.com/send/?phone=33768635173&text&type=phone_number&app_absent=0">
-            <i class="fa-brands fa-whatsapp">WHATSAPP</i>
-        </a>
+        <div class="social">
 
-        <p>For any inquiries,pleace contact uc.</p>
+            <a href="https://www.instagram.com/mazur_flowers/">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
 
-        <p>INFO.MAZURFLOWERS@GMAIL.COM</p>
+            <a href="https://api.whatsapp.com/send/?phone=33768635173">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
 
-    </section>
+        </div>
 
-    <hr>
+        <p>For any inquiries, please contact us.</p>
 
-    <section id="dark">
-
-        <h2>Delivery,Cancellatation,Replacement,Return and Refund Policy</h2>
-        <br>
-        <a href="https://en.mazurflowers.com/privacy-policy-1">
-            <p>Privacy Policy</p>
-        </a>
-
-        <a href="https://en.mazurflowers.com/terms-conditions">
-            <p>Terms & Conditions</p>
-        </a>
-
-        <a href="https://en.mazurflowers.com/terms-of-service-1">
-            <p>Terms of Service</p>
-        </a>
-
-        <a href="https://en.mazurflowers.com/faqs">
-            <p>FAQS</p>
+        <a href="mailto:INFO.MAZURFLOWERS@GMAIL.COM">
+            INFO.MAZURFLOWERS@GMAIL.COM
         </a>
 
     </section>
-    <hr>
+
+    <footer id="dark">
+
+        <h2>MAZUR</h2>
+
+        <p>Flowers make every moment special.</p>
+
+        <div class="footer-links">
+
+            <a href="https://en.mazurflowers.com/privacy-policy-1">
+                Privacy Policy
+            </a>
+
+            <a href="https://en.mazurflowers.com/terms-conditions">
+                Terms & Conditions
+            </a>
+
+            <a href="https://en.mazurflowers.com/terms-of-service-1">
+                Terms of Service
+            </a>
+
+            <a href="https://en.mazurflowers.com/faqs">
+                FAQs
+            </a>
+
+        </div>
+
+        <p class="copyright">© 2026 MAZUR FLOWERS. All Rights Reserved.</p>
+
+    </footer>
 
 </body>
-
 </html>
